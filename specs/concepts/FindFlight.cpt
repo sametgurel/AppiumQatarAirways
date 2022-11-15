@@ -1,0 +1,55 @@
+Created by testinium on 15.11.2022
+
+This is a concept file with following syntax for each concept.
+# Book butonuna tikla
+* "3" saniye kadar bekle
+* "com.m.qr:id/nav_menu_book" li elemente tıkla
+
+# One-way butonuna tikla
+* "3" saniye kadar bekle
+* "//*[@content-desc='One-way']" xpath'li elemente tıkla
+
+# Kalkis havaalanini Berlin olarak sec
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder" li elemente tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" id li elementi bul ve "Berlin" değerini yaz
+* "3" saniye kadar bekle
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_text_view_holder'])[1]" xpath'li elemente tıkla
+
+# Varis havaalanini Istanbul olarak sec
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_holder" li elemente tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" id li elementi bul ve "Istanbul" değerini yaz
+* "3" saniye kadar bekle
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_ond_selection_list_text_view_holder'])[1]" xpath'li elemente tıkla
+
+# Ucus tarihi belirle
+* "3" saniye kadar bekle
+* "com.m.qr:id/ondDepartureWidget" li elemente tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_departure_date_holder" li elemente tıkla
+* "3" saniye kadar bekle
+* "(//android.widget.TextView[@clickable='true'])[8]" xpath'li elemente tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/fragment_calendar_confirm_button" li elemente tıkla
+
+
+# Economy class sec
+* "3" saniye kadar bekle
+* "com.m.qr:id/fragment_rtow_flight_cabin_class_text_view" li elemente tıkla
+* "3" saniye kadar bekle
+* "//*[@text='Economy']" xpath'li elemente tıkla
+
+# Ucus arama butonuna tikla
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_booking_search_flights_button" li elemente tıkla
+
+# Ucus secimi yap
+* "3" saniye kadar bekle
+* "(//*[@resource-id='com.m.qr:id/rvmp_item_search_result_root_view'])[1]" xpath'li elemente tıkla
+
+# 'Select this fare' butonuna tikla
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_activity_flight_details_select_button" li elemente tıkla

@@ -1,0 +1,16 @@
+Created by testinium on 15.11.2022
+
+This is a concept file with following syntax for each concept.
+# Popuplari kaldir
+* "3" saniye kadar bekle
+"com.android.permissioncontroller:id/permission_deny_button" li elemente tıkla
+* "com.android.permissioncontroller:id/permission_deny_button" li element gorunuyor ise tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/skip_button" li element gorunuyor ise tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/onboarding_skip_button" li element gorunuyor ise tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/push_consent_decline" li element gorunuyor ise tıkla
+* "3" saniye kadar bekle
+* "com.m.qr:id/secondary_button" li element gorunuyor ise tıkla
+* "3" saniye kadar bekle

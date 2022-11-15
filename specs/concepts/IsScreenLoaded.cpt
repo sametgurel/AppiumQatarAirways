@@ -1,0 +1,10 @@
+Created by testinium on 15.11.2022
+
+This is a concept file with following syntax for each concept.
+# Uygulamanin acildigi kontrol et
+* "3" saniye kadar bekle
+* "com.m.qr:id/rvmp_home_tool_bar_menu_icon" id li elementin gorunurlugunu kontrol et
+
+# Ucus ekraninin geldigini kontrol et
+* "3" saniye kadar bekle
+* "com.m.qr:id/booking_activity_conversational_message" id li elementin gorunurlugunu kontrol et
